@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joseph Furniture</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color:#46212165;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .banner {
+      display: flex;
+      align-items: center;
+      padding: 40px;
+      background: linear-gradient(rgb(159, 219, 154), rgba(255, 0, 0, 0.363))
+    }
+
+    .banner img {
+      width: 60%;
+      max-height: 400px;
+      object-fit:cover;
+      border-radius: 10px;
+    }
+
+    .banner-description {
+      width: 40%;
+      padding-left: 30px;
+    }
+
+    .banner-description h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .banner-description p {
+      font-size: 18px;
+    }
+
+    .sofas {
+      padding: 60px 40px;
+      background-color: rgba(240, 255, 255, 0.1);
+    }
+
+    .sofas h2 {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .image-container {
+      display: flex;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+    }
+
+    .item {
+      text-align: center;
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      color: #000;
+    }
+
+    .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .description {
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    .details {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .back {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.back:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Joseph Furniture</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="Contact.html">Contact</a>
+      <a href="About us.html">About Us</a>
+    </nav>
+  </header>
+
+
+  <div class="banner">
+    <img src="pic/idanaes-6-drawer-dresser-white__0931751_pe791228_s5.avif" alt="Banner Image">
+    <div class="banner-description">
+      <h1>Discover Premium Dressers</h1>
+      <p>Keep your bedroom stylish and clutter-free with our elegant dressers. Featuring spacious drawers and timeless designs, they’re perfect for organizing clothes while adding a touch of sophistication to your space.</p>
+    </div>
+  </div>
+
+
+  <section class="sofas">
+    <h2>Dresser Sample List</h2>
+    <div class="image-container">
+
+      <a class="item" href="#">
+        <img src="pic/malm-6-drawer-dresser-black-brown__1154386_pe886017_s5.avif" alt="Single Use Sofa" />
+        <p class="description">Standard Horizontal Dresser</p>
+        <p class="details">Wide and low, perfect for storing clothes with space on top for décor or a mirror.</p>
+      </a>
+  
+      <a class="item" href="Pages/MId%20price.html">
+        <img src="pic/41VVwxA3p6L.jpg" alt="Standard Sofa" />
+        <p class="description">Tall Dresser (Chest of Drawers)</p>
+        <p class="details">Slim and vertical—great for tight spaces while still offering ample storage.</p>
+      </a>
+  
+      <a class="item" href="Pages/High%20price.html">
+        <img src="pic/Gray-Dresser6-Innovations.webp" alt="Sofa Bed" />
+        <p class="description">Double Dresser</p>
+        <p class="details">Extra wide with six or more drawers—ideal for shared bedrooms or added storage.</p>
+      </a>
+  
+      <a class="item" href="Pages/budget.html">
+        <img src="pic/Brookside-3-Drawer-Combo-Dresser-Black.webp" alt="Sectional Sofa" />
+        <p class="description">Combo Dresser</p>
+        <p class="details">Includes both drawers and cabinet space—perfect for mixing folded and hanging items.</p>
+      </a>
+    </div>  
+  
+    <div style="text-align: center; margin-top: 30px;">
+      <a href="index.html" class="back">
+        <h3>Go Back</h3>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div>
+      <p>@:To be Updated Soon</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joseph Furniture</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color:#46212165;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .banner {
+      display: flex;
+      align-items: center;
+      padding: 40px;
+      background: linear-gradient(rgb(182, 154, 219), rgb(128, 128, 128))
+    }
+
+    .banner img {
+      width: 60%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .banner-description {
+      width: 40%;
+      padding-left: 30px;
+    }
+
+    .banner-description h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .banner-description p {
+      font-size: 18px;
+    }
+
+    .sofas {
+      padding: 60px 40px;
+      background-color: rgba(240, 255, 255, 0.1);
+    }
+
+    .sofas h2 {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .image-container {
+      display: flex;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+    }
+
+    .item {
+      text-align: center;
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      color: #000;
+    }
+
+    .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .description {
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    .details {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .back {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.back:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Joseph Furniture</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="Contact.html">Contact</a>
+      <a href="About us.html">About Us</a>
+    </nav>
+  </header>
+
+
+  <div class="banner">
+    <img src="pic/S13_HolfredDesk_01_1200X1000_5fc03f5d-f9e7-46f8-8769-1971624a99ec.jpg" alt="Banner Image">
+    <div class="banner-description">
+      <h1>Discover Premium Desks</h1>
+      <p>Explore our curated collection of modern, ergonomic, and stylish desks designed to enhance your workspace and boost productivity.</p>
+    </div>
+  </div>
+
+
+  <section class="sofas">
+    <h2>Desk Sample List</h2>
+    <div class="image-container">
+
+      <a class="item" href="#">
+        <img src="pic/Wildwood_Banner_750x800_468c21a5-1b02-4d10-8bf8-8bd65f1f10da.webp" alt="Single Use Sofa" />
+        <p class="description">Writing Desk</p>
+        <p class="details">Sleek, simple, and stylish—our Writing Desk creates the perfect space for creativity and focus, with just the right amount of room to write, sketch, or plan.</p>
+      </a>
+  
+      <a class="item" href="Pages/MId%20price.html">
+        <img src="pic/71EiUtupUML._AC_UF1000,1000_QL80_.jpg" alt="Standard Sofa" />
+        <p class="description">Computer Desk</p>
+        <p class="details">Maximize productivity with our Computer Desk—designed for comfort and efficiency, featuring ample space for your tech and clean cable management for a clutter-free workspace.</p>
+      </a>
+  
+      <a class="item" href="Pages/High%20price.html">
+        <img src="pic/66d8a207cb2bce209b4bd53c-modern-l-shape-executive-desk-brown.jpg" alt="Sofa Bed" />
+        <p class="description">Executive Desk</p>
+        <p class="details">Make a statement with our Executive Desk—spacious, elegant, and perfect for the professional who values both style and functionality in their workspace.</p>
+      </a>
+  
+      <a class="item" href="Pages/budget.html">
+        <img src="pic/vari-electric-standing_400803_reclaimedwood_wfh_s.jpg" alt="Sectional Sofa" />
+        <p class="description">Standing Desk</p>
+        <p class="details">Elevate your work routine with our Standing Desk—adjustable for a healthier, more dynamic way to work, whether you’re standing or sitting.
+
+        </p>
+      </a>
+    </div>  
+  
+    <div style="text-align: center; margin-top: 30px;">
+      <a href="index.html" class="back">
+        <h3>Go Back</h3>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div>
+      <p>@:To be Updated Soon</p>
+    </div>
+  </footer>
+
+</body>
+</html>

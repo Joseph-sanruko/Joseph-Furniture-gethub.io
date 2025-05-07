@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joseph Furniture</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+  <style>
+   body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(104, 84, 84), rgb(44, 68, 64));
+    min-height: 100vh;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  .contact-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+  }
+
+  .contact-box h1 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+
+  .contact-box p {
+    font-size: 1.1em;
+    color: #555;
+  }
+
+  .contact-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .contact-option {
+    background-color: #f0e68c;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+
+  .contact-option:hover {
+    transform: translateY(-5px);
+    background-color: #ffcc00;
+  }
+
+  .contact-option i {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .contact-option span {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+  }
+
+  .back {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 40px;
+  }
+
+  .back:hover {
+    background-color: #ddd;
+    color: #000;
+  }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Joseph Furniture</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="Contact.html" style="color: #ffcc00;">Contact</a>
+      <a href="About us.html">About Us</a>
+    </nav>
+  </header>
+
+  <div class="contact-container">
+    <div class="contact-box">
+      <h1>Get in Touch</h1>
+      <p>Choose the options below to contact us</p>
+    </div>
+
+    <div class="contact-options">
+      <div class="contact-option">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Our Location</span>
+        <span>Crossing Laconcepcion</span>
+      </div>
+
+      <div class="contact-option">
+        <i class="fa-solid fa-phone"></i>
+        <span>Call Us</span>
+        <span>09978064362</span>
+      </div>
+
+      <div class="contact-option">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email Us</span>
+        <span>menangdeng2006@gmail.com</span>
+      </div>
+    </div>
+
+    <a href="index.html" class="back">Back to Home</a>
+  </div>
+
+</body>
+</html>
+
+
