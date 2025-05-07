@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joseph Furniture</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color:#46212165;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .banner {
+      display: flex;
+      align-items: center;
+      padding: 40px;
+      background: linear-gradient(rgb(232, 253, 42), rgba(0, 255, 13, 0.363))
+    }
+
+    .banner img {
+      width: 60%;
+      max-height: 400px;
+      object-fit:cover;
+      border-radius: 10px;
+    }
+
+    .banner-description {
+      width: 40%;
+      padding-left: 30px;
+    }
+
+    .banner-description h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .banner-description p {
+      font-size: 18px;
+    }
+
+    .sofas {
+      padding: 60px 40px;
+      background-color: rgba(240, 255, 255, 0.1);
+    }
+
+    .sofas h2 {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .image-container {
+      display: flex;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+    }
+
+    .item {
+      text-align: center;
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      color: #000;
+    }
+
+    .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .description {
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    .details {
+      font-size: 14px;
+      color: #555;
+    }
+
+
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Joseph Furniture</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="Contact.html">Contact</a>
+      <a href="About us.html">About Us</a>
+    </nav>
+  </header>
+
+
+  <div class="banner">
+    <img src="pic/Furniture-store-inside2-1024x577.webp" alt="Banner Image">
+    <div class="banner-description">
+      <h1>Discover Premium Accessories</h1>
+      <p>Add the perfect finishing touch to your space with our stylish and functional accessories. From lighting to cushions, every detail is crafted to elevate comfort, ambiance, and style.</p>
+    </div>
+  </div>
+
+
+  <section class="sofas">
+    <h2>Accessories Sample List</h2>
+    <div class="image-container">
+
+      <a class="item" href="#">
+        <img src="pic/Skinny-laMinx-Pillow-mix-2023-crop.jpg" alt="Single Use Sofa" />
+        <p class="description">Cushions & Pillows</p>
+        <p class="details">Soft, weather-resistant, and colorful—instantly upgrade your seating comfort.</p>
+      </a>
+  
+      <a class="item" href="Pages/MId%20price.html">
+        <img src="pic/81cnbOXmqIL._AC_SL1500_.jpg" alt="Standard Sofa" />
+        <p class="description">Patio Umbrellas</p>
+        <p class="details">Shade in style—perfect for sunny days and relaxing in cool comfort.</p>
+      </a>
+  
+      <a class="item" href="Pages/High%20price.html">
+        <img src="pic/spiral-charcoal-3d-shaggy-rug-4_4edkohf7nw3fm5wj.jpg" alt="Sofa Bed" />
+        <p class="description">Rugs</p>
+        <p class="details">Durable and decorative—define your space with cozy texture.</p>
+      </a>
+  
+      <a class="item" href="Pages/budget.html">
+        <img src="pic/copper-finish-moroccan-style-string-lights-battery-powered-metal-led-home-lighting-lanterns-173cm-long-each-light-h5-x-4cm~5053335809683_02c_MP.webp" alt="Sectional Sofa" />
+        <p class="description">String Lights / Lanterns</p>
+        <p class="details">Set the mood—create a warm, inviting glow for evening gatherings.</p>
+      </a>
+    </div>  
+  
+    <div style="text-align: center; margin-top: 30px;">
+      <a href="index.html" class="back">
+        <h3>Go Back</h3>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div>
+      <p>@:To be Updated Soon</p>
+    </div>
+  </footer>
+
+</body>
+</html>
